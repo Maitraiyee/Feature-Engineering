@@ -1,0 +1,9 @@
+## in models like linear regression, missing values are not acceptable
+df.info() ## to see column wise disstribution of values 
+df.isnull() # boolean o/p as true- for null, False for not null
+df.isnull().sum() #count of number of missing values columnwise for dataframe
+df.notnull() #opposite of isnull()
+
+
+### listwise deletion of missing values 
+deleting them 
